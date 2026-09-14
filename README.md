@@ -1,8 +1,8 @@
-\# 🛡️ Offensive Language Detection
+# 🛡️ Offensive Language Detection
 
 
 
-Aplicación experimental de \*\*detección automática de lenguaje ofensivo y discurso de odio\*\* mediante técnicas de procesamiento de lenguaje natural (NLP).
+Aplicación experimental de  *detección automática de lenguaje ofensivo y discurso de odio* mediante técnicas de procesamiento de lenguaje natural (NLP).
 
 
 
@@ -10,31 +10,29 @@ El proyecto utiliza modelos de lenguaje preentrenados para analizar textos en es
 
 
 
-\## 🚀 Características
+## 🚀 Características
 
 
 
-\* Detección automática del idioma.
+*Detección automática del idioma.
+* Soporte para español e inglés.
+* Clasificación de contenido mediante modelos NLP preentrenados.
 
-\* Soporte para español e inglés.
+* Cálculo de confianza de la predicción.
 
-\* Clasificación de contenido mediante modelos NLP preentrenados.
+* Umbral configurable de confianza.
 
-\* Cálculo de confianza de la predicción.
+  Interfaz web desarrollada con Streamlit.
 
-\* Umbral configurable de confianza.
-
-\* Interfaz web desarrollada con Streamlit.
-
-\* Procesamiento local de los textos introducidos en la aplicación.
+  Procesamiento local de los textos introducidos en la aplicación.
 
 
 
-\## 🧠 Modelos utilizados
+## 🧠 Modelos utilizados
 
 
 
-\### Español
+### Español
 
 
 
@@ -46,7 +44,7 @@ Modelo especializado en la detección de discurso de odio en español.
 
 
 
-\### Inglés
+ ### Inglés
 
 
 
@@ -58,11 +56,11 @@ Modelo basado en RoBERTa orientado a la detección de lenguaje ofensivo en conte
 
 
 
-Los modelos son \*\*preentrenados\*\* y no han sido entrenados desde cero como parte de este proyecto.
+Los modelos son    *preentrenados* y no han sido entrenados desde cero como parte de este proyecto.
 
 
 
-\## 🏗️ Arquitectura
+ ## 🏗️ Arquitectura
 
 
 
@@ -104,25 +102,25 @@ Resultado + confianza
 
 
 
-\## 🛠️ Tecnologías
+ ## 🛠️ Tecnologías
 
 
 
-\* Python
+ * Python
 
-\* Streamlit
+ * Streamlit
 
-\* Hugging Face Transformers
+ * Hugging Face Transformers
 
-\* PyTorch
+ * PyTorch
 
-\* NLP
+ * NLP
 
-\* Langdetect
+ * Langdetect
 
 
 
-\## 📁 Estructura
+ ## 📁 Estructura
 
 
 
@@ -144,7 +142,7 @@ Offensive-Language-Detection/
 
 
 
-\## ⚙️ Instalación
+ ## ⚙️ Instalación
 
 
 
@@ -180,7 +178,7 @@ Activar el entorno virtual en Windows:
 
 ```powershell
 
-.\\.venv\\Scripts\\Activate.ps1
+.  .venv  Scripts  Activate.ps1
 
 ```
 
@@ -214,11 +212,11 @@ La primera ejecución puede tardar más debido a la descarga de los modelos de N
 
 
 
-\## 🔐 Consideraciones de seguridad
+ ## 🔐 Consideraciones de seguridad
 
 
 
-Este proyecto forma parte de un trabajo académico relacionado con \*\*ciberseguridad, análisis de contenido y redes sociales\*\*.
+Este proyecto forma parte de un trabajo académico relacionado con  *ciberseguridad, análisis de contenido y redes sociales*.
 
 
 
@@ -226,21 +224,21 @@ Se han tenido en cuenta las siguientes prácticas:
 
 
 
-\* No almacenar credenciales en el repositorio.
+ * No almacenar credenciales en el repositorio.
 
-\* No incluir claves API.
+ * No incluir claves API.
 
-\* No incluir información sensible en el código.
+ * No incluir información sensible en el código.
 
-\* Uso de `.gitignore` para evitar archivos locales y entornos virtuales.
+ * Uso de `.gitignore` para evitar archivos locales y entornos virtuales.
 
-\* Uso de modelos externos mediante sus identificadores públicos.
+ * Uso de modelos externos mediante sus identificadores públicos.
 
-\* Procesamiento experimental de los textos introducidos por el usuario.
+ * Procesamiento experimental de los textos introducidos por el usuario.
 
 
 
-\## ⚠️ Limitaciones
+ ## ⚠️ Limitaciones
 
 
 
@@ -252,19 +250,19 @@ El sistema puede presentar errores debido a:
 
 
 
-\* Ironía o sarcasmo.
+ * Ironía o sarcasmo.
 
-\* Contexto insuficiente.
+ * Contexto insuficiente.
 
-\* Lenguaje coloquial.
+ * Lenguaje coloquial.
 
-\* Errores ortográficos.
+ * Errores ortográficos.
 
-\* Expresiones ambiguas.
+ * Expresiones ambiguas.
 
-\* Diferencias culturales.
+ * Diferencias culturales.
 
-\* Limitaciones propias de los modelos utilizados.
+ * Limitaciones propias de los modelos utilizados.
 
 
 
@@ -272,7 +270,7 @@ Actualmente la aplicación está preparada para español e inglés.
 
 
 
-\## 🎓 Contexto académico
+ ## 🎓 Contexto académico
 
 
 
@@ -284,11 +282,11 @@ La versión publicada en este repositorio ha sido reorganizada para presentar el
 
 
 
-\## 👨‍💻 Autor
+ ## 👨‍💻 Autor
 
 
 
-\*\*Vicente Ayarza\*\*
+*Vicente Ayarza*
 
 
 
@@ -296,7 +294,7 @@ Ingeniero Informático · Máster en Ciberseguridad
 
 
 
-GitHub: \[Vicenayarza](https://github.com/Vicenayarza)
+GitHub:  [Vicenayarza](https://github.com/Vicenayarza)
 
 
 
